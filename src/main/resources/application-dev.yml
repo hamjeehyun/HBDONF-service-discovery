@@ -1,0 +1,15 @@
+application:
+  workspace: DEV
+  port: 8003
+  ip: localhost
+
+spring:
+  config:
+    activate:
+      on-profile: dev
+
+logging:
+  lovel: DEBUG
+
+
+

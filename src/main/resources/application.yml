@@ -1,0 +1,15 @@
+server:
+  port: 8003
+
+spring:
+  profiles:
+    active: prod
+  application:
+    name: HBDONF-service-discovery
+
+eureka:
+  client:
+    register-with-eureka: false
+    fetch-registry: false
+    service-url:
+      defaultZone: http://${application.ip}:${application.port}/eureka/

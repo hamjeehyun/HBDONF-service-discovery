@@ -1,0 +1,13 @@
+application:
+  workspace: PROD
+  port: 8003
+  ip: 35.155.108.210
+
+spring:
+  config:
+    activate:
+      on-profile: prod
+
+logging:
+  lovel: INFO
+
